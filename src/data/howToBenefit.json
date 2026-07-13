@@ -1,0 +1,28 @@
+{
+  "banner": {
+    "eyebrow": "How It Works",
+    "heading1": "Stop Guessing.",
+    "heading2": "Start Playing On-Chain.",
+    "description": "Connect your wallet and let the contract handle the wheel. Every spin executes on-chain, with full visibility into odds, bets, and payouts.",
+    "primaryCta": "Connect Wallet",
+    "secondaryCta": "See the Contract"
+  },
+  "benefits": [
+    {
+      "title": "Your Funds, Your Control",
+      "description": "Non-custodial by design — your C-Chip balance stays in your own wallet at all times."
+    },
+    {
+      "title": "Transparent Odds",
+      "description": "House edge and payout tables are published up front. No hidden terms, no shifting odds mid-session."
+    },
+    {
+      "title": "Fully Trackable",
+      "description": "A live dashboard gives full visibility into bets, spins, and settlements as they happen."
+    },
+    {
+      "title": "Verifiable Fairness",
+      "description": "Every result is emitted as an on-chain event, so outcomes can be checked independently — not just trusted."
+    }
+  ]
+}

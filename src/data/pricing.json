@@ -1,0 +1,16 @@
+{
+  "eyebrow": "Access",
+  "title": "Simple Access,",
+  "titleAccent": "Built for Players",
+  "description": "One straightforward plan. No tiers to decode, no hidden fees layered in later.",
+  "planLabel": "Annual Access",
+  "price": "100",
+  "period": "/year",
+  "perks": [
+    "Unlimited spins for 12 months",
+    "Full on-chain transaction history",
+    "Priority support via Telegram & email",
+    "Early access to new table limits"
+  ],
+  "cta": "Get Access"
+}

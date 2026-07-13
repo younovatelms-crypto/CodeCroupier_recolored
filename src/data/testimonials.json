@@ -1,0 +1,26 @@
+{
+  "eyebrow": "Testimonials",
+  "title": "What Players Say",
+  "items": [
+    {
+      "name": "J. Marlowe",
+      "quote": "Being able to check the contract after every spin is what got me to actually trust the wheel.",
+      "initials": "JM"
+    },
+    {
+      "name": "A. Novak",
+      "quote": "First casino UI where the transaction hash matters more to me than the confetti animation.",
+      "initials": "AN"
+    },
+    {
+      "name": "R. Osei",
+      "quote": "Non-custodial setup meant I never had to wonder where my balance actually lived.",
+      "initials": "RO"
+    },
+    {
+      "name": "S. Lindqvist",
+      "quote": "Clean dashboard, clear odds, no surprise terms buried in a FAQ somewhere.",
+      "initials": "SL"
+    }
+  ]
+}

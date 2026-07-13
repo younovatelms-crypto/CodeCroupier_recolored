@@ -1,0 +1,39 @@
+{
+  "eyebrow": "Questions",
+  "title": "Frequently Asked Questions",
+  "subtitle": "Everything you need to know about how CodeCroupier works.",
+  "items": [
+    {
+      "question": "What is C-Chip ($CCHIP)?",
+      "answer": "C-Chip is the utility token used to place bets and receive payouts inside CodeCroupier. It's held entirely in your own wallet, never on our servers."
+    },
+    {
+      "question": "How are roulette results determined?",
+      "answer": "Results are produced by on-chain contract logic rather than a hidden server, so every spin can be independently verified after the fact by anyone."
+    },
+    {
+      "question": "Does CodeCroupier custody my funds?",
+      "answer": "No. CodeCroupier is non-custodial — your balance lives in your connected wallet, and you approve every transaction yourself."
+    },
+    {
+      "question": "Is there a guaranteed return?",
+      "answer": "No. CodeCroupier is a game of chance, not an investment product. Outcomes are variable and you should only ever bet what you can afford to lose."
+    },
+    {
+      "question": "What security guarantees do I have?",
+      "answer": "The contract code is published and auditable. Because we never hold custody of your tokens, a compromise of our website cannot move funds out of your wallet without your explicit signature."
+    },
+    {
+      "question": "How do I create a CodeCroupier account?",
+      "answer": "Connect a Web3 wallet like MetaMask from the homepage — there's no separate username or password to manage."
+    },
+    {
+      "question": "Which networks are supported?",
+      "answer": "CodeCroupier currently supports EVM-compatible networks. Check the dashboard for the active network before betting."
+    },
+    {
+      "question": "Can I track my bet history?",
+      "answer": "Yes. Every bet, spin, and settlement is logged on-chain and visible in your dashboard's transaction history."
+    }
+  ]
+}

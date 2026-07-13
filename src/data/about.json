@@ -1,0 +1,21 @@
+{
+  "eyebrow": "About Us",
+  "title": "Built for Verifiable Play",
+  "intro": [
+    "CodeCroupier was built by a small team of protocol engineers who were tired of casino platforms that ask players to simply trust a server no one can see.",
+    "Since our first prototype, we've focused on one idea: every game mechanic that touches your funds should be something you — or anyone — can independently verify on-chain."
+  ],
+  "quote": "Our mission is to bring verifiable, on-chain game logic to every player, not just the ones who know how to read a smart contract.",
+  "visionTag": "Vision 2026",
+  "visionTitle": "Shaping the Future of On-Chain Play",
+  "visionParagraphs": [
+    "Our vision is to make provably-fair, on-chain gaming simple and accessible for every player — without requiring a computer science degree to trust it.",
+    "We want to give players tools to verify outcomes themselves, not just take our word for it."
+  ],
+  "pillars": [
+    { "icon": "cpu", "label": "On-Chain Logic" },
+    { "icon": "cloud", "label": "Resilient Infrastructure" },
+    { "icon": "shield", "label": "Non-Custodial" },
+    { "icon": "activity", "label": "Open Odds" }
+  ]
+}

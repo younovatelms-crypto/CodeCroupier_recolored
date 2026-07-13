@@ -1,0 +1,17 @@
+{
+  "eyebrow": "The Vault",
+  "title": "Every Chip Tells a Story",
+  "subtitle": "From circuit-board coins to falling gold — the $CCHIP economy, visualized.",
+  "items": [
+    { "id": "video-01", "type": "video", "file": "cchip-showcase.mp4", "title": "Live at the Table", "tag": "Showcase" },
+    { "id": "coin-01", "file": "coin-01.jpg", "title": "Circuit Vault", "tag": "On-Chain" },
+    { "id": "coin-02", "file": "coin-02.jpg", "title": "Mainboard Mint", "tag": "Hardware" },
+    { "id": "coin-03", "file": "coin-03.jpg", "title": "Ember Ledger", "tag": "Verified" },
+    { "id": "coin-04", "file": "coin-04.jpg", "title": "Gold Rush", "tag": "Jackpot" },
+    { "id": "coin-05", "file": "coin-05.jpg", "title": "Breakout Block", "tag": "Mined" },
+    { "id": "coin-06", "file": "coin-06.jpg", "title": "Night Terminal", "tag": "Live" },
+    { "id": "coin-07", "file": "coin-07.jpg", "title": "Spark Protocol", "tag": "Secured" },
+    { "id": "coin-08", "file": "coin-08.jpg", "title": "Stacked Stakes", "tag": "Staking" },
+    { "id": "coin-09", "file": "coin-09.jpg", "title": "Cash Out", "tag": "Payout" }
+  ]
+}

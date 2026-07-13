@@ -1,0 +1,14 @@
+{
+  "eyebrow": "Protocol Stack",
+  "title": "Everything Verifiable, By Design",
+  "icons": [
+    { "icon": "cpu", "label": "On-Chain Logic" },
+    { "icon": "wallet", "label": "Non-Custodial" },
+    { "icon": "shield", "label": "Auditable" },
+    { "icon": "activity", "label": "Live Events" },
+    { "icon": "cloud", "label": "Resilient" },
+    { "icon": "lock", "label": "Secure by Default" },
+    { "icon": "globe", "label": "Multi-Chain Ready" },
+    { "icon": "zap", "label": "Fast Settlement" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "eyebrow": "Smart Settlements",
+  "titleLine1": "Transparent Odds,",
+  "titleLine2": "Settled On-Chain.",
+  "description": "Experience an ecosystem where the house edge is published up front and every settlement fires as a verifiable contract event.",
+  "stats": [
+    { "label": "Player Payout", "value": "97%" },
+    { "label": "House Edge", "value": "3%" }
+  ],
+  "wheelLabel": "CodeCroupier",
+  "wheelSub": "On-Chain Roulette"
+}

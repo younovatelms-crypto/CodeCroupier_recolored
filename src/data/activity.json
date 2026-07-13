@@ -1,0 +1,15 @@
+{
+  "eyebrow": "Live Activity",
+  "title": "On-Chain, In Real Time.",
+  "subtitle": "A running feed of contract events — transparent, verifiable, and never edited after the fact.",
+  "events": [
+    { "type": "Spin settled", "detail": "Table #04 · Payout 2.4x", "hash": "0x4F82…A1C3", "tone": "win" },
+    { "type": "Bet placed", "detail": "Table #12 · 0.05 ETH", "hash": "0x9B31…7E90", "tone": "neutral" },
+    { "type": "Contract event", "detail": "Result: 17 Black", "hash": "0x1CDA…44F2", "tone": "neutral" },
+    { "type": "Spin settled", "detail": "Table #07 · No payout", "hash": "0x7710…B3D5", "tone": "loss" },
+    { "type": "Wallet connected", "detail": "New session started", "hash": "0x2A6E…C001", "tone": "neutral" },
+    { "type": "Spin settled", "detail": "Table #02 · Payout 5.1x", "hash": "0xE4B7…9F0A", "tone": "win" },
+    { "type": "Bet placed", "detail": "Table #04 · 0.12 ETH", "hash": "0x88D2…5A3C", "tone": "neutral" },
+    { "type": "Contract event", "detail": "Result: 0 Green", "hash": "0x33F9…D874", "tone": "neutral" }
+  ]
+}

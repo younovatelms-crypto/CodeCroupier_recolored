@@ -1,0 +1,26 @@
+{
+  "eyebrow": "How It Works",
+  "title": "From Wallet to Wheel in Four Steps",
+  "items": [
+    {
+      "number": "01",
+      "title": "Connect Wallet",
+      "description": "Link a Web3 wallet like MetaMask. CodeCroupier never asks for your keys."
+    },
+    {
+      "number": "02",
+      "title": "Acquire C-Chip",
+      "description": "Swap for $CCHIP to fund your table balance, fully visible on-chain."
+    },
+    {
+      "number": "03",
+      "title": "Place Your Bet",
+      "description": "Choose a number, color, or spread on the roulette table and confirm the transaction."
+    },
+    {
+      "number": "04",
+      "title": "Watch the Contract Settle",
+      "description": "The wheel spins, the contract emits the result, and payouts settle directly to your wallet."
+    }
+  ]
+}

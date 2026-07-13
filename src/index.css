@@ -1,0 +1,155 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@theme {
+  --font-display: "Montserrat", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* ============================================================
+     CodeCroupier Official Colour System v1 — mapped onto the
+     existing token names so no per-component class renames are
+     needed. See Codecroupier_official_colour_system_v1_v1.pdf.
+     ===================
+     ======
+     ========================================= */
+
+  /* Overriding Tailwind's built-in "black" swaps every bg-black / from-black /
+     via-black / to-black / border-black / text-black utility (including their
+     /opacity variants) to CodeCroupier Midnight, sitewide, with no per-component edits. */
+  --color-black: #0A0D13; /* CodeCroupier Midnight */
+
+  --color-bg-primary: #0A0D13; /* CodeCroupier Midnight */
+  --color-bg-coal: #10141C;    /* Under-felt Navy */
+  --color-bg-panel: #171C26;   /* Card Slate */
+  --color-bg-elevated: #1E2430; /* Elevated Deck (modals/dropdowns) */
+
+  --color-brand-red: #2FD4C4;     /* Signal Cyan — primary accent / CTAs */
+  --color-brand-crimson: #22A99B; /* Signal Cyan, darkened for hover/active */
+  --color-brand-pink: #6B5CE0;    /* Ledger Violet — secondary accent */
+
+  --color-silver: #B8BDC9;       /* Chip Platinum */
+  --color-silver-light: #EDEFF5; /* Paper White (primary text) */
+  --color-silver-border: #262C3A; /* Rail Line — borders/dividers */
+  --color-graphite: #171C26;      /* Card Slate */
+
+  --color-neon-purple: #6B5CE0; /* Ledger Violet */
+  --color-neon-cyan: #2FD4C4;   /* Signal Cyan */
+
+  --color-profit-green: #2E9F6A;  /* Felt Green — success */
+  --color-jackpot-green: #C5A162; /* C-Chip Gold — rewards/celebratory */
+
+  /* status colours */
+  --color-warning: #E0A63E; /* Amber Flag */
+  --color-error: #E0524A;   /* Muted Crimson */
+  --color-info: #4C8DF7;    /* Info Steel Blue */
+  --color-disabled: #3A3F4B; /* Disabled Slate */
+
+  /* text colours */
+  --color-text-secondary: #9AA3B7; /* Smoke Grey */
+  --color-text-muted: #6B7294;     /* Muted Ash */
+  --color-text-disabled: #4B5160;  /* Disabled Ink */
+  --color-deep-ink: #07120F;       /* text on accent colours */
+  --color-gold: #C5A162;           /* C-Chip Gold */
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-silver-light);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  width: 100%;
+}
+
+#root {
+  overflow-x: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #10141C;
+}
+::-webkit-scrollbar-thumb {
+  background: #262C3A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2FD4C4;
+}
+
+.glow-red {
+  box-shadow: 0 0 24px rgba(47, 212, 196, 0.35);
+}
+.glow-purple {
+  box-shadow: 0 0 24px rgba(107, 92, 224, 0.3);
+}
+.glow-cyan {
+  box-shadow: 0 0 24px rgba(47, 212, 196, 0.3);
+}
+
+.text-glow {
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.25);
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
+  background-size: 42px 42px;
+}
+
+@keyframes marquee-left {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee-left linear infinite;
+}
+
+@keyframes marquee-right {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0); }
+}
+
+.animate-marquee-reverse {
+  animation: marquee-right linear infinite;
+}
+
+/* hides scrollbar on the coin carousel track while keeping it scrollable */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* bottom tab bar: respect iOS home-indicator / gesture area */
+.bottom-nav-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* reserve space at the bottom of the viewport on phones so the fixed
+   bottom nav never covers footer content or page content */
+@media (max-width: 1023px) {
+  .has-bottom-nav {
+    padding-bottom: calc(64px + env(safe-area-inset-bottom, 0px));
+  }
+}
